@@ -1,0 +1,12 @@
+{% extends "theme.html" %}
+
+{% block content %}
+
+<div>
+    <h1>Этот сайт поможет выбрать лекарство</h1>
+    <a href = "{{ url_for('rec', man = 'child') }}">Детям</a>
+    &nbsp
+    <a href = "{{ url_for('rec') }}">Взрослым</a>
+</div>
+
+{% endblock %}

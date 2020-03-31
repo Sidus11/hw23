@@ -1,0 +1,15 @@
+{% extends "theme.html" %}
+
+{% block content %}
+
+    {% if man == "child" %}
+        <div>
+            Детям можно давать только: Парацетам, Антигриппин
+        </div>
+    {% else %}
+        <div>
+            Можно принимать все из списка лекарств
+        </div>
+    {% endif %}
+
+{% endblock %}    
